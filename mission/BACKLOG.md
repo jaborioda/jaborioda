@@ -1,8 +1,11 @@
 # Backlog (top = next)
-- [ ] Read employment agreement: moonlighting/IP clauses. Write 1-line result in LOG.
-- [ ] Set up Python 3 + venv on Linux; create `mailtriage` repo skeleton
-- [ ] Parse a public sample .eml: From, Reply-To, Return-Path, Subject, Received chain → JSON
-- [ ] Extract + defang URLs; hash attachments (SHA256)
-- [ ] SPF/DKIM/DMARC result parsing from Authentication-Results
-- [ ] Claude API call: verdict + evidence + end-user reply
-- [ ] README + demo
+- [ ] Set up a password manager; move the 10 most important accounts in, with unique passwords
+- [ ] Turn on MFA (app or key, not SMS) for email, bank, phone carrier, Apple/Google
+- [ ] Freeze credit at Equifax, Experian, TransUnion (free, ~30 min)
+- [ ] Back up phone photos + documents to two places
+- [ ] Write runbook #1: "post-shift wind-down" (3am → asleep by 4am)
+- [ ] Pick a personal Linux machine (old laptop or a cheap mini PC); install Ubuntu/Fedora
+- [ ] Write runbook #2: "monthly bills" (due dates, autopay, check-in day)
+- [ ] Linux: set up an automated nightly backup (restic or rsync + cron)
+- [ ] Get a personal Claude API key; make a first "hello" script
+- [ ] Build to-do triager: paste my messy list → get today's top 3

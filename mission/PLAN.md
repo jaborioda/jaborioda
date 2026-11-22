@@ -1,36 +1,34 @@
-# Mission: Find a need. Fill it. Make a business.
+# Mission: Use my skills to run my own life better
 
-## Who I am (facts, not vibes)
-- Cybersecurity: email protection, threat response & intelligence. Technical support SME (TAP / TRAP / API).
-- Shift: 5pm–3am EST, Sun–Thu. Off Fri + Sat.
-- Goal: use AI + my job skills to build an open-source Linux tool that gets me hired/paid, then a business.
+## Ground rules (safety first)
+- Work stays at work. Nothing here touches Proofpoint, its products, customers, data, tools, or devices.
+- No side business, no product, no competing tool. This is personal use only.
+- Personal laptop, personal accounts, personal time. Never open this on a work device.
+- If something here ever starts to look like a product, stop and re-read the report in `reports/`.
 
-## The niche (decided — no more "discovering")
-**AI phishing-triage agent for teams that can't afford an enterprise email-security stack.**
-Small MSPs, SMBs, solo IT admins. They get "is this email safe?" tickets all day and have no analyst.
+## Who I am
+- Night shift: 5pm–3am EST, Sun–Thu. Off Fri + Sat.
+- Skills I already have: triage, threat thinking, runbooks, APIs, Linux, staying calm under alerts.
+- Goal: get comfortable with AI and Linux by using them on my own life. Build trust, confidence, and focus.
 
-Tool: `mailtriage` — open-source Linux CLI/agent.
-1. Takes a `.eml` / forwarded message
-2. Parses headers, SPF/DKIM/DMARC, Received chain, URLs, attachments (hashes)
-3. Checks free threat-intel (URLhaus, PhishTank, VirusTotal free tier, AbuseIPDB)
-4. LLM writes: verdict + evidence + a plain-English reply for the end user
-5. Later: watch a mailbox, auto-triage, Slack/Teams alert, SOAR-style actions
+## Daily rhythm
+- ~3:30am wind-down, sleep until ~11:30am (protect 7.5 hours)
+- 12:00 eat + move
+- 1:00–2:30pm **one focus block** (the ONE task from the brief)
+- 2:30–4:30 life admin / free
+- Fri + Sat: two focus blocks, plus one real rest block
 
-Why me: I do this work every night. Most AI builders have never read a Received header.
-
-## Hard rules
-- ZERO employer data, customer data, internal docs, or proprietary vendor info. Public docs + public samples only.
-- Read my employment agreement (moonlighting / IP / non-compete clauses) THIS WEEK.
-- Ship something public every week. Unshipped = didn't happen.
-- 1 build block per workday (90 min, ~1pm–2:30pm). Fri + Sat: 2 blocks each.
-- Log every day in LOG.md. Empty log = missed day. No excuses accepted.
+## Tracks (my work skills, pointed at my life)
+1. **Life incident response.** Write runbooks for recurring problems: bills, sleep after shift, meal prep, car, appointments. Severity, owner, next action.
+2. **Personal security hardening.** Password manager, MFA everywhere, credit freeze, backups, and teach family to spot phishing. That's my own and my family's safety, not work.
+3. **Linux home base.** A personal Linux machine: automated backups, a daily briefing script, a notes system.
+4. **Personal AI assistant.** Learn the Claude API by building small helpers for myself: a to-do triager, a weekly money summary, a meal planner for night-shift hours.
 
 ## 90 days
-- **Weeks 1–2:** Learn Python + Claude API basics by building v0.1: parse .eml → JSON report. Push to GitHub.
-- **Weeks 3–4:** Add threat-intel lookups + LLM verdict. Write README with a demo GIF.
-- **Weeks 5–8:** Talk to 10 MSP/IT people (Reddit r/msp, r/sysadmin, LinkedIn). Ask what they'd pay for. Post 1 public phishing teardown per week (public samples only).
-- **Weeks 9–12:** Hosted/managed version or paid setup service for 3 first customers. Or use the repo + posts to land a security-automation role. Either way, you win.
+- **Month 1:** Security hardening done. Linux home base set up. First 3 runbooks written.
+- **Month 2:** Daily briefing script running. First AI helper (to-do triage) in daily use.
+- **Month 3:** 2 more helpers. Sleep, money, and health tracked weekly. I trust my own system.
 
 ## Scoreboard (updated weekly)
-| Week | Blocks done / target | Shipped | Conversations | Notes |
-|------|----------------------|---------|---------------|-------|
+| Week | Blocks done / target | Finished | Sleep avg | Notes |
+|------|----------------------|----------|-----------|-------|
